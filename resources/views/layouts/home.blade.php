@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8"/>
-    <title>JobPulse</title>
+    <title>JobMatch</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description"/>
     <link rel="shortcut icon" href=" {{asset('frontend')}}/assets/img/logo/logov2_img.png ">
@@ -62,7 +62,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src=" {{asset('frontend')}}/assets/img/logo/logov2.png" alt="">
+                    <img src=" {{asset('frontend')}}/assets/img/logo/logov3.png" alt="">
                 </div>
             </div>
         </div>

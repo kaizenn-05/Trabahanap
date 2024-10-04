@@ -9,7 +9,7 @@
                                 </span>
                     <span class="logo-lg">
                                     <img src=" {{asset('frontend')}}/assets/img/logo/logov2_img.png" alt="" height="24"> <span
-                                class="logo-txt">JobPulse</span>
+                                class="logo-txt">Jobmatch</span>
                                 </span>
                 </a>
 
@@ -21,7 +21,7 @@
                     <span class="logo-lg">
                                     <img src=" {{asset('frontend')}}/assets/img/logo/logov2_img.png" alt="logo-dark"
                                          height="24"> <span
-                                class="logo-txt">JobPulse</span>
+                                class="logo-txt">Jobmatch</span>
                                 </span>
                 </a>
             </div>

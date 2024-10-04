@@ -9,8 +9,7 @@
                             <div class="footer-tittle">
                                 <h4>About Us</h4>
                                 <div class="footer-pera">
-                                    <p>Heaven frucvitful doesn't cover lesser dvsays appear creeping seasons so
-                                        behold.</p>
+                                    <p>JobMatch is a platform that connects job seekers and employers in the provincial job market, making it easier to find the right opportunities and talent.</p>
                                 </div>
                             </div>
                         </div>
@@ -23,11 +22,10 @@
                             <h4>Contact Info</h4>
                             <ul>
                                 <li>
-                                    <p>Address :Your address goes
-                                        here, your demo address.</p>
+                                    <p>Address :Aicia Z,S,P.</p>
                                 </li>
-                                <li><a href="#">Phone : +880 019xxxxxxx</a></li>
-                                <li><a href="#">Email : info@jobpulse.com</a></li>
+                                <li><a href="#">Phone : +9xxxxxxx</a></li>
+                                <li><a href="#">Email : Jane@gmail.com</a></li>
                             </ul>
                         </div>
 
@@ -82,7 +80,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                     <!-- logo -->
                     <div class="footer-logo mb-20">
-                        <a href="index.html"><img src="{{asset('frontend')}}/assets/img/logo/logov2.png" alt="" style="width: 199px"></a>
+                        <a href="index.html"><img src="{{asset('frontend')}}/assets/img/logo/logov4.png" alt="" style="width: 199px"></a>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
@@ -117,7 +115,7 @@
                             <p>
                                 Copyright ©
                                 <script>document.write(new Date().getFullYear());</script>
-                                A Portfolio Project by Sabbir Hossain <a
+                                 Project by Jane <a
                                     href="" ></a>
 
                             </p>

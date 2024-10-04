@@ -8,8 +8,8 @@
                         <!-- Logo -->
                         <div class="logo d-flex align-items-center justify-content-center">
                             <a href="{{url('/')}}"><img class="img-fluid "
-                                                        src=" {{asset('frontend')}}/assets/img/logo/logov2.png"
-                                                        alt="" style="width: 122px ; height: 30px"></a>
+                                                        src=" {{asset('frontend')}}/assets/img/logo/logov4.png"
+                                                        alt="" style="width: 122px ; height: 40px"></a>
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-9 col-9 col-sm-9">

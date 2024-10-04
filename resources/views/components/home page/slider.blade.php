@@ -1,5 +1,6 @@
 <!-- slider Area Start-->
-<div class="slider-area " style="background-image: url(https://images.pexels.com/photos/3756678/pexels-photo-3756678.jpeg); background-size: cover; background-position: center; background-repeat: no-repeat ">
+<div class="slider-area" style="position: relative; height: 100vh; background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <img src="https://images.pexels.com/photos/3756678/pexels-photo-3756678.jpeg" alt="Background Image" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: -1;">
     <!-- Mobile Menu -->
     <div class="slider-active" >
         <div class="single-slider slider-height d-flex align-items-center"

@@ -9,7 +9,7 @@
                                 </span>
                     <span class="logo-lg">
                                     <img src=" {{asset('assets')}}/images/logo-sm.svg" alt="" height="24"> <span
-                            class="logo-txt">JobPulse</span>
+                            class="logo-txt">Jobmatch</span>
                                 </span>
                 </a>
 
@@ -19,7 +19,7 @@
                                 </span>
                     <span class="logo-lg">
                                     <img src=" {{asset('assets')}}/images/logo-sm.svg" alt="" height="24"> <span
-                            class="logo-txt">JobPulse</span>
+                            class="logo-txt">Jobmatch</span>
                                 </span>
                 </a>
             </div>
