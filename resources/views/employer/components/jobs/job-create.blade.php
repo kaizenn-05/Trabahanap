@@ -13,19 +13,19 @@
                             <div>
                                 <div class="mb-3">
                                     <label for="example-text-input" class="form-label">Job Title</label>
-                                    <input class="form-control" type="text" placeholder="EX: Laravel Developer"
-                                           id="jTitle">
+                                    <input class="form-control" type="text" placeholder="EX: Construction"
+                                        id="jTitle">
                                 </div>
 
                                 <div class="mb-3">
                                     <label for="example-email-input" class="form-label">Job Location</label>
-                                    <input class="form-control" type="email" placeholder="Ex: Uttara,Dhaka"
-                                           id="jLocation">
+                                    <input class="form-control" type="email" placeholder="Ex: Sindangan"
+                                        id="jLocation">
                                 </div>
                                 <div class="mb-3">
                                     <label for="example-url-input" class="form-label">Salary Range</label>
-                                    <input class="form-control" type="text" placeholder="Ex: 15000-20000tk"
-                                           id="jSalary">
+                                    <input class="form-control" type="text" placeholder="Ex: 2000 - 4000"
+                                        id="jSalary">
                                 </div>
 
 
@@ -76,7 +76,8 @@
                         </div>
 
                         <div>
-                            <button onclick="jobSubmit()" type="submit" id="submit" class="text-center btn btn-primary">
+                            <button onclick="jobSubmit()" type="submit" id="submit"
+                                class="text-center btn btn-primary">
                                 Post Job
                             </button>
                         </div>
@@ -90,7 +91,6 @@
 
 
 <script>
-
     (async () => {
         await tagDropdown()
         new MultiSelectTag('tags')
@@ -158,7 +158,8 @@
         }
 
         if (title.length === 0 || location.length === 0 || salary.length === 0 || deadline.length === 0 ||
-            category.length === 0 || tags.length === 0 || des.length === 0 || resp.length === 0 || req.length === 0) {
+            category.length === 0 || tags.length === 0 || des.length === 0 || resp.length === 0 || req.length === 0
+        ) {
 
             errorToast('All Input Field Required !')
         } else {
@@ -186,7 +187,7 @@
         let res = await axios.get('/job-category-list');
 
         $('#jCat').empty();
-        res.data['data'].forEach(function (item, i) {
+        res.data['data'].forEach(function(item, i) {
             let each = ` <option value="${item['id']}">${item['name']}</option>`
             $('#jCat').append(each)
         })
@@ -197,12 +198,10 @@
         let res2 = await axios.get('/job-tag-list');
 
         //  $('#tags').empty();
-        res2.data['data'].forEach(function (item, i) {
+        res2.data['data'].forEach(function(item, i) {
             let each2 = ` <option value="${item['id']}">${item['name']}</option>`
             $('#tags').append(each2)
         })
 
     }
-
-
 </script>
